@@ -28,7 +28,7 @@ lista_contactos = Listbox(marcoprincipal, width=40, height=10, selectmode=MULTIP
 lista_contactos.grid(row=3, column=0, columnspan=2, padx=5, pady=10)
 
 
-# --- FUNCIONES ---
+#  FUNCIONES 
 
 def agregar_contacto():
     nombre = entrada_nombre.get()
